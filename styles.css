@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* color,shadow,border, etc -codes */
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --Light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: var(--dark-blue);
+  line-height: 2.8rem;
+  margin-bottom: 2rem;
+}
+
+p {
+  color: var(--grayish-blue);
+  letter-spacing: .1rem;
+}
+
+img {
+  max-width: 100%;
+  margin-bottom: 1.8rem;
+}
+
+body {
+  font-size: 1.5rem;
+  font-family: Outfit, sans-serif, Arial, Helvetica;
+  min-height: 100vh;
+  background-color: var(--Light-gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  width: 35rem;
+  background-color: var(--white);
+  padding: 2rem;
+  padding-bottom: 4rem;
+  text-align: center;
+  border-radius: 2rem;
+}
+
+img {
+  border-radius: 1rem;
+}
+
+.text-container {
+  padding: 0 1.2rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  margin: 2rem 0;
+  text-align: center;
+  color: var(--dark-blue)
+}
+
+a {
+  color: #000;
+}
+
+/* Responsive */
+
+@media screen and (320px <=width <=400px) {
+  html {
+    font-size: 55%;
+  }
+
+  /* debug purpose */
+  /* .container {
+    border: 2px solid red;
+  } */
+}
+
+
+/* @media screen and (660px<width<1024px) {
+  .container {
+    width: 45rem;
+  }
+
+  html {
+    font-size: 65%;
+  }
+} */
