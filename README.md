@@ -26,7 +26,7 @@ This project is a solution to the QR Code Component challenge on Frontend Mentor
 
 #### Desktop View
 
-  <img src="./images/laptop.png" width="1200">
+  <img src="./images/Laptop.png" width="1200">
 
 ## Built with
 
